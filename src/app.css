@@ -1,14 +1,14 @@
 @tailwind base;
 @tailwind components;
 @layer components {
-    h1 {
-        @apply mt-2 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl;
-    }
-    h2 {
-        @apply mt-2 block text-2xl leading-4 font-bold tracking-tight text-gray-900 sm:text-3xl;
-    }
-    h3 {
-        @apply block text-xl font-semibold tracking-tight text-gray-700 sm:text-2xl;
-    }
+	h1 {
+		@apply mt-2 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl;
+	}
+	h2 {
+		@apply mt-2 block text-2xl leading-4 font-bold tracking-tight text-gray-900 sm:text-3xl;
+	}
+	h3 {
+		@apply block text-xl font-semibold tracking-tight text-gray-700 sm:text-2xl;
+	}
 }
 @tailwind utilities;

@@ -4,6 +4,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"start": "node build/index.js",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
@@ -37,10 +38,12 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-netlify": "^1.0.0-next.71",
+		"@sveltejs/adapter-node": "^1.0.0-next.85",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.66",
 		"@tailwindcss/typography": "^0.5.4",
 		"dompurify": "^2.3.10",
 		"gray-matter": "^4.0.3",
-		"marked": "^4.0.18"
+		"marked": "^4.0.18",
+		"stream": "^0.0.2"
 	}
 }

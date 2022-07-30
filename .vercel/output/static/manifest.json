@@ -4,7 +4,7 @@
     "src": "src/assets/headshot_2019.jpg"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-79ddfa5e.js",
+    "file": "_app/immutable/start-7fa92d47.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [

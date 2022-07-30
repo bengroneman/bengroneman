@@ -1,28 +1,14 @@
-<script context="module">
-	export async function load({ fetch }) {
-		const response = await fetch('/api/gallery');
-		if (response.ok) return { props: { images: await response.json() } };
-		return {
-			status: response.status,
-			error: new Error()
-		};
-	}
-</script>
-
 <script>
-	import { onMount } from 'svelte';
-	export let images;
-	let loading = true;
-	onMount(() => {
-		images = images.map(image => {
-			return `/src/assets/${image}`;
-		});
-		loading = false;
-	})
+	import image1 from '../../assets/Flow_Step.png';
+	import image2 from '../../assets/Flow_Step_6.png';
+	import image3 from '../../assets/Flow_Step_10.png';
+	import image4 from '../../assets/Flow_Step_11.png';
+	import image5 from '../../assets/Flow_step_8.png';
+	const images = [image1, image2, image3, image4, image5];
 </script>
 
 <ul class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-	{#if images && !loading}
+	{#if images }
 		{#each images as image}
 			<li class="relative">
 				<div

@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "0c297200e05f32ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ef42de9c9309d5f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pages/Home.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5360ee2e4fb52180",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecd5a78e27cf0789",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c41839a20d2c7276",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "dda3d96876c2ddd7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6275443ec7e63e27",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d47fb1e3e60331d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "83cfec07bb57992d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb390649d25c6349",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "141b4e389543b0ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pages/Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1b02f39bb6d1f58e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0eacaa7b2a1a6e4c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/Home.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6ef42de9c9309d5f",
+  "lastOpenFiles": [
+    "blog/Books I've read in 2022.md",
+    "blog/Building a blog with Svelte and Gray Matter.md",
+    "blog/01-First-Post.md",
+    "pages/Home.md"
+  ]
+}

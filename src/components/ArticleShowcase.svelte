@@ -14,7 +14,9 @@
 			</div>
 			<div class="grid lg:grid-cols-3 sm:grid-cols-1">
 				{#each articles as article}
-					<ArticleCard {article} />
+					{#if article.published}
+					    <ArticleCard {article} />
+				    {/if}
 				{/each}
 			</div>
 		</div>

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "pages/Home.md",
+            "file": "blog/Books I've read in 2022.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/Home.md",
+                "file": "blog/Books I've read in 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/Home.md",
+                "file": "blog/Books I've read in 2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/Home.md"
+                "file": "blog/Books I've read in 2022.md"
               }
             }
           }
@@ -130,9 +130,11 @@
   },
   "active": "6ef42de9c9309d5f",
   "lastOpenFiles": [
+    "blog/blog-template.md",
     "blog/Books I've read in 2022.md",
     "blog/Building a blog with Svelte and Gray Matter.md",
-    "blog/01-First-Post.md",
-    "pages/Home.md"
+    "pages/Contact.md",
+    "pages/Home.md",
+    "blog/01-First-Post.md"
   ]
 }

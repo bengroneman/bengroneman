@@ -6,6 +6,6 @@ heroSubHeader: Software Engineer
 createdAt: 2022-7-29
 ---
 
-# Hello world
+# Hoy hoy, world
 
-My name is Ben Groneman and I am an independent software engineer with a focus on building up my local communities by growing with technology.
+In 2022 I founded Blue Engineering LLC. and have been working on the web since 2015.

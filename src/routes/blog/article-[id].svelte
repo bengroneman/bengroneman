@@ -1,7 +1,7 @@
 <script context="module">
 	/** @type {import('./__types/[slug]').Load} */
 	export async function load({ params, fetch }) {
-		const url = `https://groneman.org/api/articles/${params.id}?populate=*`;
+		const url = `/api/article`
 		console.log(url);
 		const response = await fetch(url);
 		return {

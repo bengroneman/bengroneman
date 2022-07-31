@@ -23,3 +23,8 @@ export async function getPayload(url) {
 		console.error(e);
 	}
 }
+
+
+export const getArticleSlug = (title) => {
+	return title.split(' ').map(w => w.toLowerCase()).join('-')
+}

@@ -1,8 +1,8 @@
 <script lang="js">
+	import { getArticleSlug } from "../lib/utils.js";
+
 	export let article;
-	const getArticleSlug = (title) => {
-		return title.split(' ').map(w => w.toLowerCase()).join('-')
-	}
+
 	const getSimpleDate = (dateStr) => {
 		const _date = new Date(dateStr)
 		return `${_date.getFullYear()}-${_date.getMonth()}-${_date.getDate()}`

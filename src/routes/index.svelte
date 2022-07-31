@@ -18,11 +18,13 @@
 	export let content;
 </script>
 
+<svelte:head>
+	<title>{content.title}</title>
+</svelte:head>
+
 {#if content}
-	<Hero header={content.heroHeader} subHeader={content.heroSubHeader}>
-		<img src={BGImage} alt={content.heroHeader} />
+	<Hero header={content.heroHeader} subHeader={content.heroSubHeader} content={content.heroContent}>
+		<img class="flex mx-auto" src={BGImage} alt={content.heroHeader} />
 	</Hero>
-	{content.title}
-	{content.description}
 	{@html parse(content.content)}
 {/if}

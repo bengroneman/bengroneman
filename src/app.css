@@ -2,13 +2,28 @@
 @tailwind components;
 @layer components {
 	h1 {
-		@apply mt-2 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl;
+		@apply mt-2 pb-6 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl;
 	}
 	h2 {
-		@apply mt-2 block text-2xl leading-4 font-bold tracking-tight text-gray-900 sm:text-3xl;
+		@apply mt-2 pb-4 block text-2xl leading-4 font-bold tracking-tight text-gray-900 sm:text-3xl;
 	}
 	h3 {
-		@apply block text-xl font-semibold tracking-tight text-gray-700 sm:text-2xl;
+		@apply block pb-2 text-xl font-semibold tracking-tight text-gray-700 sm:text-2xl;
+	}
+	hr {
+		@apply my-12;
+	}
+	.primary-btn-lg {
+		@apply w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10;
+	}
+	.nav-item {
+		@apply text-white hover:bg-sky-600 hover:bg-opacity-75 flex items-center px-4 py-2 text-base font-medium rounded-md;
+	}
+	.active-nav-item {
+		@apply bg-sky-800;
+	}
+	.inactive-nav-item {
+		@apply hover:bg-sky-600 hover:bg-opacity-75;
 	}
 }
 @tailwind utilities;

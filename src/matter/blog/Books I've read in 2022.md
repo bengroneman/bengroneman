@@ -14,3 +14,4 @@ updatedAt: 2022-07-31
 - Foundation (Asimov)
 - The work of art in the age of its technological reproducibility (Walter Benjamin)
 - The Recognitions (William Gaddis)
+- The House of the Dead (Fydor Dostoyevsky)

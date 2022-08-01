@@ -24,7 +24,9 @@ export async function getPayload(url) {
 	}
 }
 
-
 export const getArticleSlug = (title) => {
-	return title.split(' ').map(w => w.toLowerCase()).join('-')
-}
+	return title
+		.split(' ')
+		.map((w) => w.toLowerCase())
+		.join('-');
+};

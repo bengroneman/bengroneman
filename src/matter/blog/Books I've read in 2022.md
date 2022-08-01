@@ -7,7 +7,9 @@ categories: ['blog', 'books']
 createdAt: 2022-07-31
 updatedAt: 2022-07-31
 ---
+
 # 2022 Books I'm reading
+
 - ~~Consider the Lobster (David Foster Wallace)~~
 - Working (Studs Terkel)
 - In Memory of Memory (Maria Stepanova)

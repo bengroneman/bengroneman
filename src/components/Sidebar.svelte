@@ -33,7 +33,7 @@
 
 	const toggleNav = () => {
 		navToggled = !navToggled;
-	}
+	};
 </script>
 
 <div class="h-full">
@@ -97,18 +97,39 @@
 					{/each}
 				</nav>
 			</div>
-			<div onclick="{toggleNav}" class="flex-shrink-0 flex border-t border-sky-800 p-4 ml-auto cursor-pointer">
+			<div
+				onclick={toggleNav}
+				class="flex-shrink-0 flex border-t border-sky-800 p-4 ml-auto cursor-pointer"
+			>
 				{#if navToggled}
-					 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-						 <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
-					 </svg>
-				 {/if}
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-6 w-6 text-white"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
+						/>
+					</svg>
+				{/if}
 				{#if !navToggled}
-					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-6 w-6 text-white"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						stroke-width="2"
+					>
 						<path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
 					</svg>
-				 {/if}
-			 </div>
+				{/if}
+			</div>
 		</div>
 	</div>
 	<div class="md:pl-64 flex flex-col flex-1">

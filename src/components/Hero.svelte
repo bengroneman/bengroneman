@@ -18,12 +18,7 @@
 			</p>
 			<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
 				<div class="rounded-md shadow">
-					<a
-						href="/blog"
-						class="primary-btn-lg"
-					>
-						Read the blog
-					</a>
+					<a href="/blog" class="primary-btn-lg"> Read the blog </a>
 				</div>
 			</div>
 		</div>

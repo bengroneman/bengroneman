@@ -15,4 +15,3 @@ In 2022 I founded Blue Engineering LLC. and have been working on the web since 2
 ---
 
 Now you might find me at the local Lander Co-Working space (Lander Worx), the coffee shop in town, or lounging with my cat reading a good book. I am working for a wonderful company known as Language I/O (LIO) we focus on delivering an excellent multilingual customer service experience to Fortune 500 companies. As a Front-End Developer on the team my goal is to build and maintain features for the Zendesk integration. Our stack is a Java backend, with a React SPA as the frontend integration.
-

@@ -1,6 +1,6 @@
 {
-  "textFontFamily": "FiraCode Nerd Font Mono",
-  "interfaceFontFamily": "FiraCode Nerd Font Mono",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono",
-  "baseFontSize": 12
+	"textFontFamily": "FiraCode Nerd Font Mono",
+	"interfaceFontFamily": "FiraCode Nerd Font Mono",
+	"monospaceFontFamily": "FiraCode Nerd Font Mono",
+	"baseFontSize": 12
 }

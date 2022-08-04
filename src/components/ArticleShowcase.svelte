@@ -1,5 +1,6 @@
 <script>
 	import ArticleCard from '../components/ArticleCard.svelte';
+	import { onMount } from 'svelte';
 
 	export let articles = [];
 </script>

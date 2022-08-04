@@ -21,7 +21,7 @@
 			{/each}
 		</a>
 	</div>
-	<a href="/blog/article-{getArticleSlug(article.title)}" class="block mt-4">
+	<a href="/blog/article-{getArticleSlug(article.filename)}" class="block mt-4">
 		<p class="text-xl font-semibold text-gray-900">
 			{article.title}
 		</p>

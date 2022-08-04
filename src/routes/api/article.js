@@ -1,7 +1,12 @@
+import fs from 'fs';
 import { getMatter } from './index.js';
-import { getArticleSlug } from '../../lib/utils.js';
 
-export async function GET({ params }) {
-	console.log(params);
-	return await getMatter(`./src/matter/blog/${params.slug}`);
+export async function GET() {
+    const articleFiles = fs.readdirSync('./src/matter/blog/');
+    const articles = await Promise.all(
+        articleFiles.map(async (filename) => {
+            return await getMatter(`./src/matter/blog/${filename}`);
+        })
+    );
+    return { body: articles };
 }

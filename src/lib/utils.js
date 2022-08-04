@@ -24,9 +24,21 @@ export async function getPayload(url) {
 	}
 }
 
-export const getArticleSlug = (title) => {
-	return title
-		.split(' ')
+export const getArticleSlug = (fn) => {
+	return fn
+		.split('-')
 		.map((w) => w.toLowerCase())
 		.join('-');
 };
+
+
+function capitalizeWord(word) {
+	return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+}
+
+export const getArticleFilename = (slug) => {
+	return slug
+		.split('-')
+		.map(w => capitalizeWord(w))
+		.join('-');
+}

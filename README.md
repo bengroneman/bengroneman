@@ -1,3 +1,3 @@
-# Ben Groneman
+# Blue Groneman
 
-A mission driven engineer with a drive to solve user experience challenges with data-driven and intuitive solutions. I bring diverse experience in Web Development, data engineering, consulting, with a soft spot for JavaScript.
+Building cool things with Language I/O as a DevOps Engineer.
